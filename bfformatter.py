@@ -5,7 +5,7 @@ import math
 class BFFormatter(object):
     """
     Formats brainfuck source code according to a given image in ASCII art style 
-    by placing a character wherever the (mormalized) luminosity of the image is 
+    by placing a character wherever the (normalized) luminosity of the image is 
     smaller than a threshold value and placing a whitespace otherwise.
     """
     bf_string = None
